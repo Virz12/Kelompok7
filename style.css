@@ -1,0 +1,201 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+/* Styles */
+html, body, h2, h4, hr, button {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Nunito', sans-serif;
+    box-sizing: border-box;
+    background-color: #fff;
+}
+
+header {
+    height: 100vh;
+    background: url('../images/hero-bg2.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: rgb(242, 242, 236);
+    display: flex;
+}
+
+.judul {
+    margin: auto;
+    text-align: center;
+}
+
+.judul h1 {
+    font-size: 8rem;
+}
+
+.judul p {
+    font-size: 1.5rem;
+}
+
+.kelebihan {
+    height: 300px;
+    background-color: rgb(238, 238, 238);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.kotak {
+    text-align: center;
+    transition: .3s;
+    width: 30%;
+}
+
+.kotak:hover {
+    transform: translateY(-15px);
+}
+
+.img-kel {
+    height: 90px;
+    width: 90px;
+    border: 2px solid rgb(24, 24, 24);
+    border-radius: 3px;
+    display: inline-block;   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.obat {
+    margin: 50px 70px;
+}
+
+.obat h2 {
+    font-size: 2.2rem;
+    border: 3px solid rgb(152, 241, 100);
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    width: 14%;
+    margin-bottom: 80px;
+    margin-left: 30px ;
+}
+
+.obat.vit h2 {
+    width: 17%;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.kartu {
+    width: 300px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 3px;
+    overflow: auto;
+    margin: 20px 0;
+    transition: .3s;
+    box-shadow: 0px 0px 10px -4px rgb(34, 34, 34);
+}
+
+.kartu:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 25px -5px rgb(34, 34, 34);
+}
+
+.img-kartu img {
+    width: 80%;
+    padding: 30px 30px 10px;
+}
+
+.bag-ket {
+    background-color: rgb(152, 241, 100);
+    padding: 5px 7px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bag-ket span {
+    font-weight: 500;
+}
+
+.btn-keranjang {
+    padding: 7px;
+    text-align: center;
+}
+
+button {
+    border-radius: 3px;
+    padding: 1em 1.3em;
+    font-weight: 700;
+}
+
+.kartu button {
+    font-size: .8rem;
+    border: none;
+    background-color: #fff;
+}
+
+.btn-selengkapnya {
+    text-align: center;
+}
+
+.btn-selengkapnya button {
+    border: none;
+    background-color: rgb(152, 241, 100);
+    font-size: 1.2rem;
+    transition: .3s;
+    box-shadow: 0px 0px 10px -4px rgb(34, 34, 34);
+}
+
+.btn-selengkapnya button:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 0px 15px -2px rgb(34, 34, 34);
+}
+
+.about {
+    background-color: rgb(238, 238, 238);
+    padding: 20px 0px;
+}
+
+.about h2 {
+    text-align: center;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.img-about {
+    display: flex;
+    justify-content: center;
+}
+
+.img-about img {
+    border-radius: 50%;
+    width: 80px;
+    padding: 0px 10px;
+}
+
+.text {
+    width: 50%;
+    margin: auto;
+}
+
+.text p{
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+footer {
+    background-color: rgb(2, 31, 2);
+    height: 500px;
+}
+
+
+
+
+
+
