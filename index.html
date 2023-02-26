@@ -8,12 +8,33 @@
     <script src="https://kit.fontawesome.com/a1fe272ba9.js" crossorigin="anonymous"></script>
 </head>
 <body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="TOBAT">
+            <span>TOBAT</span>
+        </div>
+        <div class="menu">
+            <a href="index.html">Home</a>
+            <a href="obat.html">Obat</a>
+            <a href="tentang-kami.html">Tentang Kami</a>
+            <a href="">Keranjang</a>
+        </div>
+        <div class="login">
+            <a href="login.html">
+                <i class="fa-solid fa-user"></i>
+                <span>Login</span>
+            </a>
+        </div>
+    </nav>
+    <!-- Akhir Navbar -->
+
     <!-- Header -->
     <header>
         <div class="hero"></div>
         <div class="judul">
             <h1>TOBAT</h1>
-            <p> TOBAT adalah toko obat terpercaya untuk membeli semua jenis obat-obatan yang anda butuhkan </p>
+            <p>TOBAT adalah toko obat terpercaya untuk membeli semua jenis obat-obatan yang anda butuhkan </p>
         </div>
     </header>
     <!-- Akhir Header -->
@@ -51,7 +72,6 @@
     <!-- Akhir Kelebihan -->
 
     <!-- Obat -->
-
     <div class="obat">
         <h2>DAFTAR OBAT</h2>
         <div class="flex">
@@ -60,11 +80,9 @@
                     <img src="../images/obat/amoxicillin.jpg" alt="Amoxicillin">
                 </div>
                 <div class="bag-ket">
-                        <h4>Amoxicillin</h4>
-                        <h4><span>Rp 8.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>AMOXICILLIN</h4>
+                    <h4><span>Rp 8.000</span></h4>
                 </div>
             </div>
             <div class="kartu">
@@ -72,11 +90,9 @@
                     <img src="../images/obat/bodrex.jpg" alt="Bodrex">
                 </div>
                 <div class="bag-ket">
-                        <h4>Bodrex</h4>
-                        <h4><span>Rp 5.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>BODREX</h4>
+                    <h4><span>Rp 5.000</span></h4>
                 </div>
             </div>
             <div class="kartu">
@@ -84,11 +100,9 @@
                     <img src="../images/obat/panadol-extra.jpg" alt="Panadol extra">
                 </div>
                 <div class="bag-ket">
-                        <h4>Panadol Extra</h4>
-                        <h4><span>Rp 14.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>PANADOL EXTRA</h4>
+                    <h4><span>Rp 14.000</span></h4>
                 </div>
             </div>
             <div class="kartu">
@@ -96,64 +110,14 @@
                     <img src="../images/obat/paratusin.jpg" alt="Paratusin">
                 </div>
                 <div class="bag-ket">
-                        <h4>Paratusin</h4>
-                        <h4><span>Rp 17.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
-                </div>
-            </div>
-            <div class="kartu">
-                <div class="img-kartu">
-                    <img src="../images/obat/hufagrip.jpg" alt="Hufagrip">
-                </div>
-                <div class="bag-ket">
-                        <h4>Hufagrip</h4>
-                        <h4><span>Rp 20.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
-                </div>
-            </div>
-            <div class="kartu">
-                <div class="img-kartu">
-                    <img src="../images/obat/termorex-plus.jpg" alt="Termorex Plus">
-                </div>
-                <div class="bag-ket">
-                        <h4>Termorex Plus</h4>
-                        <h4><span>Rp 16.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
-                </div>
-            </div>
-            <div class="kartu">
-                <div class="img-kartu">
-                    <img src="../images/obat/anakonidin.jpg" alt="Anakonidin">
-                </div>
-                <div class="bag-ket">
-                        <h4>Anakonidin</h4>
-                        <h4><span>Rp 13.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
-                </div>
-            </div>
-            <div class="kartu">
-                <div class="img-kartu">
-                    <img src="../images/obat/etafen.jpg" alt="amoxicillin">
-                </div>
-                <div class="bag-ket">
-                        <h4>Etafen</h4>
-                        <h4><span>Rp 8.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>PARATUSIN</h4>
+                    <h4><span>Rp 17.000</span></h4>
                 </div>
             </div>
         </div>
         <div class="btn-selengkapnya">
-            <button type="submit" name="submit">Selengkapnya</button>
+            <a href="obat.html"><button type="submit" name="selengkapnya">Selengkapnya</button></a>
         </div> 
     </div>
     <!-- Akhir Obat -->
@@ -168,11 +132,9 @@
                     <img src="../images/obat/vitacimin.jpg" alt="Vitacimin">
                 </div>
                 <div class="bag-ket">
-                        <h4>Vitacimin</h4>
-                        <h4><span>Rp 2.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>VITACIMIN</h4>
+                    <h4><span>Rp 2.000</span></h4>
                 </div>
             </div>
             <div class="kartu">
@@ -180,11 +142,9 @@
                     <img src="../images/obat/prove-d3.jpg" alt="Prove D3-1000">
                 </div>
                 <div class="bag-ket">
-                        <h4>Prove D3-1000</h4>
-                        <h4><span>Rp 35.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>PROVE D3-1000</h4>
+                    <h4><span>Rp 35.000</span></h4>
                 </div>
             </div>
             <div class="kartu">
@@ -192,11 +152,9 @@
                     <img src="../images/obat/natur-e.png" alt="Natur E">
                 </div>
                 <div class="bag-ket">
-                        <h4>Natur E</h4>
-                        <h4><span>Rp 37.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>NATUR E</h4>
+                    <h4><span>Rp 37.000</span></h4>
                 </div>
             </div>
             <div class="kartu">
@@ -204,16 +162,14 @@
                     <img src="../images/obat/aipi.jpg" alt="A Ipi">
                 </div>
                 <div class="bag-ket">
-                        <h4>A Ipi</h4>
-                        <h4><span>Rp 7.000</span></h4>
-                </div>
-                <div class="btn-keranjang">
-                    <button type="submit" name="tambah">Tambah keranjang</button>
+                    <a href="" class="keranjang"><i class="fa-solid fa-cart-shopping fa-xl"></i></a>
+                    <h4>A IPI</h4>
+                    <h4><span>Rp 7.000</span></h4>
                 </div>
             </div>
         </div>
         <div class="btn-selengkapnya">
-            <button type="submit" name="submit">Selengkapnya</button>
+            <a href="obat.html"><button type="submit" name="selengkapnya">Selengkapnya</button></a>
         </div>    
     </div>
     <!-- Akhir Vitamin -->
@@ -221,7 +177,7 @@
     <!-- Tentang Kami -->
     <div class="about">
         <h2>Tentang Kami</h2>
-        <div class="img-about">
+        <div class="img-about index">
             <img src="images/alfikho.jpg" alt="Alfikho">
             <img src="images/fajar.jpg" alt="Fajar">
             <img src="images/ihsan.jpg" alt="Ihsan">
@@ -233,14 +189,35 @@
             </p>
         </div>
         <div class="btn-selengkapnya">
-            <button type="submit" name="submit">Selengkapnya</button>
+            <a href="tentang-kami.html"><button type="submit" name="selengkapnya">Selengkapnya</button></a>
         </div>
     </div>
     <!-- Akhir Tentang Kami -->
 
     <!-- Footer -->
     <footer>
-
+        <div class="langganan">
+            <h3>Berlangganan</h3>
+            <form action="">
+                <span>Dengan berlangganan maka anda akan mendapatkan info seputar obat yang baru, stok ulang, serta diskon yang ada.</span>
+                <br>
+                <span class="email">Email</span>
+                <br>
+                <input type="email" name="email" autocomplete="off" placeholder="Masukan email anda">
+                <br>
+                <button type="submit">Langganan</button>
+            </form>
+        </div>
+        <div class="garis-vert"></div>
+        <div class="kontak">
+            <h3>Kontak Kami</h3>
+            <i class="fa-solid fa-phone"></i>
+            <a href="tel:+62-812-2197-8905">+62-812-2197-8905</a>
+            <br>
+            <i class="fa-regular fa-envelope"></i>
+            <a href="mailto:tokobat@gmail.com">tokobat@gmail.com</a>
+        </div>    
     </footer>
+    <!-- Akhir Footer -->
 </body>
 </html>
