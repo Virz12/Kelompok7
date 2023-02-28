@@ -21,7 +21,7 @@
             <a href="">Keranjang</a>
         </div>
         <div class="login">
-            <a href="register.html">
+            <a href="register.php">
                 <i class="fa-solid fa-user"></i>
                 <span>Register</span>
             </a>
@@ -30,8 +30,7 @@
     <!-- Akhir Navbar -->
 
     <!-- Header -->
-    <header>
-        <div class="hero"></div>
+    <header class="login">
         <div class="container">
             <h1>LOGIN</h1>
             <div class="garis-hor login"></div>
@@ -42,12 +41,12 @@
                 <div class="garis-hor input"></div>
                 <!-- Password -->
                 <label for="password">Password</label>
-                <input type="password" name="password" id="password">
+                <input type="password" name="password" id="password" autocomplete="off" required>
                 <div class="garis-hor input"></div>
                 <a href="" class="lupa-pw">Lupa Password?</a>
                 <!-- Submit -->
                 <button type="submit">LOGIN</button>
-                <span>Belum punya akun?<a href="register.html">Register</a></span>
+                <span>Belum punya akun?<a href="register.php">Register</a></span>
             </form>
         </div>
     </header>
